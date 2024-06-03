@@ -2363,7 +2363,7 @@ Default value: `present`
 
 ##### `version`
 
-Valid values: `latest`, `/^(v)?[0-9\.]+$/`
+Valid values: `latest`, `/^(v)?[0-9\.]+(-dev\d*)?(-alpha\d*)?(-beta\d*)?$/`
 
 Specific version to install, or latest
 
