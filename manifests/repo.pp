@@ -49,7 +49,6 @@ class sensu::repo {
       },
       key      => {
         name   => 'sensu.asc',
-        id     => 'CB1605C4E988C91F438249E3A5BC3FB70A3F7426',
         source => 'https://packagecloud.io/sensu/stable/gpgkey',
       },
     }
